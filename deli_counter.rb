@@ -4,6 +4,7 @@ def line(katz_deli)
   katz_deli.each do |customer|
     puts "The line is currently: #{customer}."
     customer += 1 
+  end
 end
  
  
