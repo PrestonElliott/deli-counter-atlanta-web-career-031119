@@ -1,8 +1,10 @@
 katz_deli = []
 
 def line(katz_deli)
+  if katz_deli == 0 
+    return ""
   katz_deli.each do |customer|
-    puts "The line is currently: #{customer}."
+    return "The line is currently: #{customer}."
     customer += 1 
   end
 end
