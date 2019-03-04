@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli == 0 
-    return ""
+    return "The line is currently empty."
   katz_deli.each do |customer|
     return "The line is currently: #{customer}."
     customer += 1 
